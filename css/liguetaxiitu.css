@@ -1,0 +1,124 @@
+#navmenu{
+    background-color: #006400;
+    color: white;
+}
+
+
+#logo{
+    width: 30px; 
+    height: 30px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+  }
+
+#fonte{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#lista{
+    font-size: 14px;
+}
+
+ul.none{
+    list-style-type: none; 
+}
+
+#logocartoes{
+    width: 250px;    
+}
+#logowappa{
+    width: 120px;
+}
+#logodinheiro{
+    height: 50px;
+    width: 50px;
+}
+#logolinkedin{
+    width: 20px; 
+    height: 20px;
+}
+#logowhatsapp{
+    width: 20px; 
+    height: 20px;
+}
+
+material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+#conteudoprincipal{
+    padding: 5px;
+    margin: 10px;
+}
+
+#sobre{
+    padding: 10px;
+}
+
+#avalicoes-google{
+    padding: 10px;
+}
+
+#forma-pagamento{
+    padding: 25px;
+}
+
+#rodape {
+    background-color:#006400;
+    color: white;
+    display: block;
+}
+
+#link{
+    color: white;
+    font-size: 12px;
+}
+
+#avaliacoesgoogle{
+    height:300px; 
+    width:400px; 
+    border:0;
+
+
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+

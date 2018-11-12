@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/liguetaxiitu.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+  <!-- Google Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="imagens/taxi-yellow-logo.png">
+  <title>LigueTaxiItu</title>
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav id="navmenu" class="navbar navbar-light">
+    <a id="titulo" class="navbar-brand">
+      <img id="logo" src="imagens/taxi-yellow-logo.png" class="d-inline-block align-top" alt=""> LigueTaxiItu</a>
+  </nav>
+  <div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Agende suas Corridas</h1><br>
+        <p id="fonte">Itu, Salto e Região</p>
+        <p class="lead"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contato">
+            <i class="material-icons">local_taxi</i> Agende
+          </button><br><br>
+          <img id="logowappa" src="imagens/wappa.png">
+        </p>
+      </div>
+    </div>
+    <!--fim div-jumbotron-->
+  </div>
+
+  <article>
+    <div class="container">
+      <div class="row">
+        <div id="sobre" class="col-md-5">
+          <h3>Sobre</h3>
+          <strong id="fonte">LTI TRANSPORTES</strong>
+          <br><br>
+          <p id="fonte">
+            A LigueTaxiItu atua na área de prestação de serviços de táxi, com objetivo de proporcionar segurança,
+            rapidez, conforto e
+            confiabilidade.
+          </p>
+          <p id="fonte">
+            Espalhamos facilidade, praticidade e conveniências, nossa filosofia é a segurança, agilidade e respeito;
+            que estão presentes
+            em nosso dia a dia.<br>Nos orgulhamos em estar e trabalhar com você.
+          </p>
+        </div>
+        <!--Fim div-sobre-->
+        <div id="avalicoes-google" class="col-md-6 ml-md-auto">
+          <h4>Avaliações do Google</h4>
+          <div class="map-responsive iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117236.86464366343!2d-47.3022895!3d-23.3283811!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x37634a5d21b3b330!2sLiguetaxiitu+(11)99966-9360+Credito+D%C3%A9bito+e+Wappa!5e0!3m2!1spt-BR!2sbr!4v1534859118315"
+              frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!--Fim div-avaliacoes-->
+        <br>
+        <div id="forma-pagamento" class="col-md-7">
+          <h4>Formas de pagamento</h4>
+          <p id="fonte"></p>Dinheiro/Crédito/Débito<br></p>
+          <img id="logodinheiro" src="imagens/dinheiro.png">
+          <img id="logocartoes" src="imagens/cartoes_logo.png">
+        </div>
+      </div>
+      <!--Fim Row Container-->
+    </div>
+
+    <div id="rodape" class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">Informações</h5>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <ul class="none">
+                <li id="lista"><strong>Telefones </strong></li>
+                <li id="lista">
+                  <i class="material-icons md-24">phone</i>: (11) 4023-4503
+                </li>
+                <li id="lista">
+                  <i class="material-icons md-24">phone_android</i>: (11) 93145-2085
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 offset-md-4">
+              <ul class="none">
+                <li id="lista"><strong>Mídias Socias</strong></li>
+                <li id="lista">
+                  <a id="link" href=""><img id="logo" src="imagens/facebook.png">LigueTaxiItu</a>
+                </li id="lista">
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="card-footer">
+        © 2018 LigueTaxiItu |
+        <a id="link" href="https://www.linkedin.com/in/alexander-albuquerque-oliveira-5b2013104/" target="_blank">
+          <img id="logolinkedin" src="imagens/linkedin.png"> Criado por Alexander
+        </a></a>
+      </div>
+    </div>
+    <!--Fim Rodapé-->
+
+  </article>
+  <!--Fim article-->
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="contato" tabindex="-1" role="dialog" aria-labelledby="contatoLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contatoLabel">Agendamento Corrida</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="none">
+            <li><i class="material-icons md-24">person</i>: Cristiano</li>
+            <a href="tel:(11)96851-4120">
+              <li><i class="material-icons md-24">phone_android</i>:(11) 96851-4120
+            </a>
+            </li>
+            <a href="mailto:contatoliguetaxiitu@gmail.com">
+              <li><i class="material-icons md-24">mail_outline</i>: contatoliguetaxiitu@gmail.com</li>
+            </a>
+            <a class="btn btn-outline-success" role="button" aria-pressed="true" href="https://api.whatsapp.com/send?phone=5511968514120&text=Ol%C3%A1,%20Cristiano%20tudo%20bem?%20Atrav%C3%A9s%20do%20seu%20site%20https://liguetaxiitu.com%20consegui%20seu%20contato%20para%20solicitar%20uma%20corrida,%20podemos%20agendar?">
+              Entre em contato via WhatsApp <img id="logowhatsapp" src="imagens/WhatsApp_Icon.png"></a>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fim Modal-->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSsRIV2xNQmCFE9pTON41rIwK6AoDl39k&callback=initMap"
+    async defer></script>
+
+  <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 8
+      });
+    }
+  </script>
+
+</body><!-- Fim Body-->
+
+</html><!-- Fim Html-->
